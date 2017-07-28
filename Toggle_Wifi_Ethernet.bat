@@ -1,4 +1,4 @@
-@echo off
+@echo off 
 echo ### Chaveamento para Wifi/Ethernet ###
 
 REM ==============================================================
@@ -37,5 +37,5 @@ if %errorlevel% equ 0 (
   netsh interface set interface %interface_fisico% Enable
 )
 echo ### Completado ###
-timeout /t 3
+timeout /t 2
 
